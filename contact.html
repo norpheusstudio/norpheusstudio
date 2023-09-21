@@ -1,14 +1,72 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>HTML</title>
+  
+  <style>
+    h1 {
+  font-size: 50px;
+  font-family: 'Times New Roman';
+  margin: 500px 0px 0px 0px;
+}
+fieldset {
+  margin: 0px 300px 0px 300px;
+  background-color: lightblue;
+}
+form {
+  margin: 20px 0px 20px 0px;
+}
+input { 
+  margin: 5px 0px 5px 0px;
+}
+select {
+  margin: 5px 0px 5px 0px;
+}
+textarea {
+  margin: 5px 0px 5px 0px;
+}
+button {
+  margin: 5px 0px 5px 0px;
+}
+p {
+  font-family: 'Courier New';
+}
+  </style>
 </head>
 
 <body>
 
+    <div>
+      <center><h1>Contact Us</h1></center>
+        <fieldset>
+          <form action="https://formspree.io/f/xgejnlpr" method="POST">
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <br>
+            <input type="email" name="Email" placeholder="Email" required>
+            <div>
+              <select name="Country">
+                <option name="Philippines">Philippines</option>
+                <option value="China">China</option>
+                <option value="America">America</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <textarea name="Message" placeholder="Message" cols="30" rows="5" required></textarea>
+            <br>
+            <button type="email">Send</button>
+          </form>
+            <p>@2023 | All right served</p>
+        </fieldset>
+    </div>
+  
 </body>
-
 </html>
