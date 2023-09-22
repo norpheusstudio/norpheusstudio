@@ -154,13 +154,28 @@
     width: 100%;
   }
 }
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://i.pinimg.com/1200x/ae/76/23/ae762353d8a6f8f77f626c320d7a9456.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   </style>
   <title>Paradox Studio</title>
 </head>
 
 <!--Body section><!-->
 
-<body bgcolor="slategrey">
+<body class="bg">
 
   <!--image logo></!-->
   <img src="20230817_145843.png" width="120" height="120">
@@ -191,7 +206,7 @@
   <div>
     <center>
       <h1>OFFICIAL VIDEO<h1>
-          <video width="500" height="500" auto>
+          <video width="500" height="500" autoplay>
             <source src="lv_0_20230818123923.mp4" type="video/mp4">
           </video>
     </center>
