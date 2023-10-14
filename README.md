@@ -6,6 +6,6 @@ v0.1
  - Unpatterned colours
 
 v0.2
- -- A Newest version and enchanced UI
+ -- A newly and enchanced UI
  - Enchanced background colours and fonts
  - Colour will be no longer too hurtful in our vision
