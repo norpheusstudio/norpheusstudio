@@ -5,28 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=">
   <style>
     h1 {
+        text-shadow:0 8px 8px rgb(0, 0, 0);
         margin-top: 10px 0px 0px 0px;
-        font-size: 200px;
-        font-family: 'Franklin Gothic Medium';
+        font-size: 250px;
+        font-family: Arial;
+        font-weight: lighter;
         color: white;
     }
     .h1video {
         margin: 250px 100px auto 100px;
         font-size: 150px;
-        font-family: 'Franklin Gothic Medium';
+        font-family: Arial;
+        font-weight: lighter;
     }
-    .h1about {
-        font-size: 200px;
+    .h1games {
+        margin: auto 100px auto 100px;
+        font-size: 300px;
         font-family: 'Franklin Gothic Medium';
     }
     .fh1 {
         font-size: 150px;
-        padding: 90px 10px 10px 10px;
+        padding: 100px 600px 0px 100px;
     }
     h2 {
         margin-top: 0px 0px 30px 0px;
         font-size: 90px;
-        font-family: 'Times Roman';
+        font-family: Arial;
+        font-weight: bold;
         color: white;
     }
     .h2 {
@@ -39,9 +44,11 @@
         font-family: 'Courier New', Courier, monospace
     }  
     h4 {
+        text-shadow:0 8px 8px rgb(0, 0, 0);
         margin: -150px 0px 90px 0px;
         font-size: 50px;
-        font-family: 'Franklin Gothic Medium';
+        font-family: Arial;
+        font-weight: lighter;
         color: white;
     }
 
@@ -52,18 +59,18 @@
         margin: 0px 0px 0px 0px;
     }
     .fbutton {
-        box-shadow:0 8px 16px 0 rgb(149, 34, 34);
+        box-shadow:0 8px 8px 0 rgb(0, 0, 0);
         background-color: rgb(149, 34, 34);
         border-radius: 200px;
         color: white;
         margin: 0 auto;
-        padding:100px 200px 100px 200px;
+        padding:70px 120px 70px 120px;
         font-size: 10px;
         font-family: 'Courier New';
     }
     .button3 {
         margin: 0px 0px 0px 0px;
-        font-family: 'Courier New'
+        font-family: 'Courier New';
     }
 
 
@@ -72,29 +79,35 @@
         margin: 0;
     }
     b {
-        font-size: 30px;
-        font-family: 'Courier';
+        font-weight: lighter;
+        font-size: 40px;
+        font-family: 'Segoe UI';
         color: white;
         padding: 20px 20px 20px 20px;
     }
     .b1 {
         font-size: 50px;
-        font-family: 'Courier New'
+        font-family: 'Segoe UI';
     }
     p {
         font-family: 'Courier New';
-        font-size: 90px;
+        font-weight: bolder;
+        font-size: 60px;
         color: white;
-        margin: 0px auto 0px auto;
+        margin: 0px 300px 0px 300px;
         padding: 10px 30px 0px 30px;
-        background-color: rgba(0, 0, 0, 0.474);
+        background-color: rgba(0, 0, 0, 0.727);
+        border-radius: 30px;
       } 
     .subp {
-        font-family: 'Courier New';
-        font-size: 40px;
-        margin: 0px auto 90px auto;
+        font-family: 'Gill Sans';
+        font-weight: 100;
+        font-size: 70px;
+        margin: 0px 300px 100px 300px;
     }
     .fp {
+        font-family: Arial;
+        font-weight: lighter;
         font-size: 50px;
         background-color: black;
     }
@@ -102,14 +115,16 @@
         background-image: url("20231011_174105.png");
     }
     .gamename {
-        font-size: 100px;
-        margin: -50px 0px 40px 0px;
+        font-size: 200px;
+        margin: -50px 300px 40px 300px;
     }
     footer {
         background-color: black;
     }
     .copyright {
-        font-size: 60px;
+        font-family: 'Segoe UI';
+        font-weight: lighter;
+        font-size: 40px;
         background-color: black;
     }
     .fldcolor {
@@ -124,9 +139,10 @@
 
 
     .logoicon {
-        width: 500px;
-        height: 500px;
+        width: 800px;
+        height: 800px;
         border-radius: 100px;
+        margin: auto 300px auto 300px;
     }
     .imglogo {
         width: 500px;
@@ -148,7 +164,7 @@
     }
     nav {
         background-color: black;
-        padding: 15px 15px 15px 40px;
+        padding: 40px 15px 30px 40px;
     }
     
 
@@ -179,14 +195,16 @@
   <link rel="icon" type="image/x-icon" href="20230817_081138.jpg">
 </head>
 
-<body class="backgroundimg">   
+<body class="backgroundimg">  
     <nav>
+        <!--
         <img src="20230817_140053.png" alt="" class="iconlogo">
+        -->
         <a href="index.html"><b>HOME</b></a>
-        <a href="video.html"><b>VIDEO</b></a>
-        <a href="team.html"><b>TEAM</b></a>
-        <a href="contact.html"><b>CONTACT</b></a>
-        <a href="install.html"><b>INSTALL</b></a>
+        <a href="#video"><b>VIDEO</b></a>
+        <a href="#about"><b>ABOUT</b></a>
+        <a href="#team"><b>TEAM</b></a>
+        <a href="#games"><b>GAMES</b></a>
     </nav>
 
     <!--
@@ -199,7 +217,7 @@
         <center>
             <h1>Norpheus Studio</h1>
             <h4>Filipino indie develepor</h4>
-            <a href="https://www.facebook.com/profile.php?id=61550266380173&mibextid=ZbWKwL"><button class="fbutton"><b class="b b1">FOLLOW US</b></button></a>
+            <a href="https://www.facebook.com/profile.php?id=61550266380173&mibextid=ZbWKwL"><button class="fbutton"><b class="b b1" id="video">FOLLOW US</b></button></a>
         </center>
     </div>
 
@@ -215,44 +233,54 @@
     </center>
     </div>
     
-
+    <fieldset class="fldcolor">
+        <legend><h1 class="h1games" id="about">About</h1></legend>
+    </fieldset>
 
     <fieldset class="fldcolor">
-        <legend><h1 class="h1about">About</h1></legend>
+        <legend><h1 class="h1games" id="team">Team</h1></legend>
+    </fieldset>
+
+    <fieldset class="fldcolor">
+        <legend><h1 class="h1games" id="games">Games</h1></legend>
         <div>
             <img src="20231014_040007.png" class="logoicon"></img>
                 <h2 class="gamename">REPUBLIKA</h2>
                     <p class="p">Genre: FPS</img>
-                    <p class="subp"><i>"Republika" is an immersive Filipino FPS experience and immersed in a battlefield set in the picturesque and challenging terrain of the Philippines. "Republika" apart is its unique trading system, which adds an exciting layer to the gameplay. As players navigate the game's world, they can engage in trading to acquire and customize weaponry, enhancing their chances of success in intense firefights, all while exploring the stunning and diverse landscapes of the Philippines. The game's dedication to creating an authentic and adrenaline-pumping gaming experience makes it a must-play for both FPS enthusiasts and those who appreciate the rich culture and unique landscapes of the Philippines.
-</i></p>
+                    <p class="subp">"Republika" is an immersive Filipino FPS experience and immersed in a battlefield set in the picturesque and challenging terrain of the Philippines. <br> "Republika" apart is its unique trading system, which adds an exciting layer to the gameplay. As players navigate the game's world, they can engage in trading to acquire and customize weaponry, enhancing their chances of success in intense firefights, all while exploring the stunning and diverse landscapes of the Philippines. <br> The game's dedication to creating an authentic and adrenaline-pumping gaming experience makes it a must-play for both FPS enthusiasts and those who appreciate the rich culture and unique landscapes of the Philippines.</p>
         </div>
             
         <div>
             <img src="20231011_175009.png" class="logoicon"></img>
                 <h2 class="gamename">ESKINITA</h2>
                     <p class="p">Genre: HORROR/SURVIVAL</p>
-                    <p class="subp"><i>In a chilling horror story set in the eerie alleys of a forgotten town, countless horrifying creatures lurk in the shadows, waiting to unleash their terror on unsuspecting victims. As night falls, the narrow, dimly lit alleys become a nightmarish playground for a variety of malevolent beings, from ghastly spirits to grotesque monsters. The protagonists must navigate this terrifying labyrinth of darkness and face their deepest fears to survive the night.</i></p>
+                    <p class="subp">In a chilling horror story set in the eerie alleys of a forgotten town, countless horrifying creatures lurk in the shadows, waiting to unleash their terror on unsuspecting victims. As night falls, the narrow, dimly lit alleys become a nightmarish playground for a variety of malevolent beings, from ghastly spirits to grotesque monsters. The protagonists must navigate this terrifying labyrinth of darkness and face their deepest fears to survive the night.</p>
         </div>
-        
+    
         <div>
             <img src="question-mark.png" alt="No context" class="logoicon"></img>
                 <h2 class="gamename">???</h2>
                     <p class="p">Genre: TURN-BASED STRATEGY RPG</p>
-                    <p class="subp"><i>Under Development</i></p>
+                    <p class="subp">Under Development</p>
         </div>
     </fieldset>
 
     <footer>
         <div>
-            <center>
-            <h1 class="fh1">FAQ</h1>
-            <a href=""><p class="fp">What is Paradox Studio?</p></a>
-            <a href=""><p class="fp">Can we download the game free?</p></a>
+            <h1 class="fh1"></h1>
             <a href=""><p class="fp"></p></a>
-            <a href=""><p class="fp"></p></a>
-            <a href=""><p class="fp"></p></a>
-            <p class="copyright">© Copyright | ParadoxStudio</p>
-            </center>
+            <a href="contact.html"><p class="fp">CONTACT</p></a>
+            <a href="install.html"><p class="fp">INSTALL</p></a>
+            
+    <br>
+    <br>
+            <p class="copyright">©Norpheus Studio | 2023</p>
+            <p class="copyright">All right served</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
             <!--Created on Aug 1, 2023></!-->
         </div>
     </footer>
