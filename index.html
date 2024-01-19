@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     h1 {
         text-shadow:0 8px 8px rgb(0, 0, 0);
@@ -19,7 +19,7 @@
         font-weight: lighter;
     }
     .h1games {
-        margin: auto 50px auto 50px;
+        margin: auto 100px auto 100px;
         font-size: 300px;
         font-family: 'Franklin Gothic Medium';
     }
@@ -41,7 +41,7 @@
         color: white;
     } 
     h3  {
-        font-family: 'Courier New', Courier, monospace
+        font-family: 'Courier New', Courier, monospace;
     }  
     h4 {
         text-shadow:0 8px 8px rgb(0, 0, 0);
@@ -90,20 +90,20 @@
         font-family: 'Segoe UI';
     }
     p {
-        font-family: Impact;
-        font-weight: lighter;
+        font-family: Arial;
+        font-weight: bold;
         font-size: 60px;
         color: white;
-        margin: 0px 50px 0px 50px;
+        margin: 0px 300px 0px 300px;
         padding: 10px 30px 0px 30px;
         background-color: rgba(0, 0, 0, 0.727);
         border-radius: 30px;
       } 
     .subp {
-        font-family: 'Segoe UI';
-        font-weight: 100;
-        font-size: 40px;
-        margin: 0px 50px 100px 50px;
+        font-weight: lighter;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 70px;
+        margin: 0px 300px 100px 300px;
     }
     .fp {
         font-family: Arial;
@@ -116,7 +116,7 @@
     }
     .gamename {
         font-size: 200px;
-        margin: -50px 50px 40px 50px;
+        margin: -50px 300px 40px 300px;
     }
     footer {
         background-color: black;
@@ -133,7 +133,7 @@
     fieldset {
         border-radius: 30px;
         align-items: center;
-        margin: auto auto auto auto;
+        margin: 0px 10px 0px 10px;
     }
 
 
@@ -142,7 +142,7 @@
         width: 800px;
         height: 800px;
         border-radius: 100px;
-        margin: auto 200px auto 200px;
+        margin: auto 300px auto 300px;
     }
     .imglogo {
         width: 500px;
@@ -166,7 +166,12 @@
         background-color: black;
         padding: 40px 15px 30px 40px;
     }
-    
+    a::before :hover{
+        color: black;
+    }
+    a:active{
+        color: black;
+    }
 
 
     /* For desktop: */
@@ -191,7 +196,7 @@
     }
   </style>
   
-  <title>Norpheus Studio</title>
+  <title>Paradox Studio</title>
   <link rel="icon" type="image/x-icon" href="20230817_081138.jpg">
 </head>
 
@@ -261,6 +266,13 @@
             <img src="question-mark.png" alt="No context" class="logoicon"></img>
                 <h2 class="gamename">???</h2>
                     <p class="p">Genre: TURN-BASED STRATEGY RPG</p>
+                    <p class="subp">No context</p>
+        </div>
+
+        <div>
+            <img src="question-mark.png" alt="No context" class="logoicon"></img>
+                <h2 class="gamename">UNTIL THE LAST SUNSET</h2>
+                    <p class="p">Genre: VISUAL NOVEL</p>
                     <p class="subp">Under Development</p>
         </div>
     </fieldset>
@@ -274,7 +286,9 @@
             
     <br>
     <br>
-            <p class="copyright">Copyright © Norpheus Studio 2023, All right served</p>
+            <a href="privacy-policy.html"><p>Privacy Policy</p></a>
+            <a href="terms-and-condition.html"><p>Terms of Condition</p></a>
+            <p class="copyright">©Norpheus Studio | 2023 All right served</p>
     <br>
     <br>
     <br>
