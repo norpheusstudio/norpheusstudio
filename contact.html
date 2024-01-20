@@ -7,13 +7,13 @@
   <title>HTML</title>
   
   <style>
-    h1 {
+h1 {
   font-size: 50px;
-  font-family: 'Times New Roman';
+  font-family: 'Segoe UI';
   margin: 0px 0px 0px 0px;
 }
 fieldset {
-  margin: 0px 600px 0px 0px;
+  margin: 200px 700px 0px 700px;
   background-color: lightblue;
 }
 form {
@@ -22,6 +22,7 @@ form {
 input { 
   margin: 5px 0px 5px 0px;
 }
+
 select {
   margin: 5px 0px 5px 0px;
 }
@@ -32,7 +33,13 @@ button {
   margin: 5px 0px 5px 0px;
 }
 p {
-  font-family: 'Courier New';
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+.review {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
 }
   </style>
 </head>
@@ -40,31 +47,26 @@ p {
 <body>
 
     <div>
-      <h1>Contact Us</h1>
         <fieldset>
-          <form action="https://formspree.io/f/meqbvljo" method="POST">
+          <legend><h1>Contact Us</h1></legend>
+          <form action="https://formspree.io/f/xgegvjnz" method="POST">
             <input type="text" name="Name" placeholder="Full Name" required>
             <br>
-            <input type="email" name="Email" placeholder="Email" required>
-            <div>
-              <select name="Country">
-                <option name="Philippines">Philippines</option>
-                <option value="China">China</option>
-                <option value="America">America</option>
-                <option value="Japan">Japan</option>
-                <option value="Korea">Korea</option>
-                <option value="Taiwan">Taiwan</option>
-                <option value="Singapore">Singapore</option>
-                <option value="Vietnam">Vietnam</option>
-                <option value="Indonesia">Indonesia</option>
-                <option value="Other">Other</option>
-              </select>
-            </div>
             <textarea name="Message" placeholder="Message" cols="30" rows="5" required></textarea>
+            <br>
+            <label for="text">Review our service:</label>
+            <br>
+            <input type="checkbox" name="Review" class="review"> 1
+            <input type="checkbox" name="Review" class="review"> 2
+            <input type="checkbox" name="Review" class="review"> 3
+            <input type="checkbox" name="Review" class="review"> 4
+            <input type="checkbox" name="Review" class="review"> 5
             <br>
             <button type="email">Send</button>
           </form>
-            <p>@2023 | All right served</p>
+            <p>@Norpheus Studio | 2023 All right reserved</p>
+            <a href="terms-and-condition.html">Terms and Conditions</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
           </fieldser>
     </div>
   
